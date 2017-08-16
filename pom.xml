@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>net.hpe.mobilecenter</groupId>
+    <artifactId>gatherlogs</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>HPE Mobile Center Log Gather</name>
+    <description>
+        Simple SDK that can be used to access Mobile Center's REST API without worrying about REST or HTTP
+    </description>
+
+    <!--url>https://github.com/TBD</url-->
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <!--scm>
+        <url>https://github.com/HPSoftware/ALMOctaneJavaRESTSDK</url>
+        <connection>scm:git:https://github.com/HPSoftware/ALMOctaneJavaRESTSDK.git</connection>
+        <developerConnection>scm:git:ssh://github.com:HPSoftware/ALMOctaneJavaRESTSDK.git</developerConnection>
+    </scm-->
+
+    <organization>
+        <name>Hewlett Packard Enterprise</name>
+        <url>http://www.hpe.com</url>
+    </organization>
+
+    <developers>
+        <developer>
+            <name>Dave Flynn</name>
+            <email>david.flynn@hpe.com</email>
+            <organization>HPE</organization>
+        </developer>
+    </developers>
+<dependencies>
+    <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+    <dependency>
+        <groupId>org.apache.httpcomponents</groupId>
+        <artifactId>httpclient</artifactId>
+        <version>4.5.3</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.json/json -->
+    <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+        <version>20170516</version>
+    </dependency>
+</dependencies>
+</project>
